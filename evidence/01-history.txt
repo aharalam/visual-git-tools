@@ -1,0 +1,12 @@
+Repository URL: https://github.com/aharalam/visual-git-tools
+
+Branches:
+- main
+- visual-tools
+
+Feature commits:
+- Add checkout.py
+- Document the get_total() function's calculation.
+
+History graph explanation:
+The commit containing the message "Create README.md" is shared between main and visual-tools because I created visual-tools after making that commit on main. The commits containing the messages "Add checkout.py" and "Document the get_total() function's calculation." are only on visual-tools. HEAD is currently on visual-tools at this commit because it's the latest. The visual-tools branch also points to this newest feature commit.
