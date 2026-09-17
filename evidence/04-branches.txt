@@ -7,12 +7,8 @@ Branches:
 Before merge:
 Before I merged, the main branch only had the original README.md commit. The visual-tools branch had all of the commits I made while completing Tasks 1 through 3.
 
-Screenshot: screenshots/04-before-merge.png
-
 After merge:
 After I merged using GitHub Desktop, the commits from visual-tools also appeared in the history of the main branch.
-
-Screenshot: screenshots/04-after-merge.png
 
 Remote update:
 I added a sentence to the README.md file directly on GitHub on the main branch to show a remote update being fetched locally. From there, I fetched the commit using the "Fetch origin" button, and then pulled that change using the "Pull origin" button. This brought this commit to my local main branch.
