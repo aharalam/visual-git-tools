@@ -1,0 +1,12 @@
+Author: Andrew Haralambous
+Date: Thursday, September 17, 2026 at 2:18 PM
+Commit ID: e20792b6726e130e9a90d904e1159be7c4725443
+
+Line under investigation:
+return sum(item['price'] * item['quantity'] for item in cart)
+
+Commit message:
+Fix checkout.py's get_total() calculation to the original, correct return statement.
+
+Diff interpretation:
+The diff shows that the return statement was changed from adding the price and quantity to multiplying them. This explains the incorrect result because the price and quantity are supposed to be multiplied together to get the total for each item.
