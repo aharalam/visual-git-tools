@@ -1,0 +1,14 @@
+Commit 1:
+Add clear_cart() to checkout.py so that the cart can be emptied.
+
+Commit 2:
+Update README.md with a description of the repository.
+
+File: checkout.py
+Summary: Added the clear_cart() function so that all items can be removed from the cart.
+
+File: README.md
+Summary: Added a description explaining the repository's purpose.
+
+Reason for separating the changes:
+I separated the changes since they served different purposes. This makes it easier to review each change and undo one without removing all of the changes and having to add them back again.
