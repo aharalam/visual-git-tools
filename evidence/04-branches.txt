@@ -23,3 +23,10 @@ Final local state:
 After I pulled the remote update and pushed my local commits to main, the main branch was synchronized with the remote repository. The screenshot below shows no uncommitted changes from GitHub Desktop.
 
 Screenshot: screenshots/04-clean-local-state.png
+
+Underlying Git actions:
+- Publish branch: I published visual-tools to GitHub with the commits from Tasks 1-3.
+- Merge: I merged visual-tools into main so the feature commits were included in main.
+- Fetch origin: I fetched the README.md change I made directly on GitHub.
+- Pull origin: I pulled that remote change into my local main branch.
+- Push origin: I pushed my local commits to GitHub to keep main synchronized.
