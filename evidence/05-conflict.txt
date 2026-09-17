@@ -1,0 +1,14 @@
+Task 5 - Resolve a visual merge conflict
+
+Conflicting lines:
+- main branch: Main review note.
+- visual-tools branch: Feature review note.
+
+Final resolved content:
+- Main review note.
+- Feature review note.
+
+Merge commit message:
+- Merge branch 'visual-tools'
+
+Screenshot: screenshots/05-conflict-resolution.png
